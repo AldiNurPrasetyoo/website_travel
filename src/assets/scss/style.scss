@@ -1,7 +1,6 @@
 @import "mixins/banner";
 @include bsBanner("");
 
-
 // scss-docs-start import-stack
 // Configuration
 @import "functions";
@@ -43,6 +42,13 @@
 @import "spinners";
 @import "offcanvas";
 @import "placeholders";
+
+.brand-text-icon {
+  font-size: 26px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: $primary;
+}
 
 // Helpers
 @import "helpers";
